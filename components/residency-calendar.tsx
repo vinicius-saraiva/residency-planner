@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Calendar, Download } from 'lucide-react';
+import { Calendar, Download, Save } from 'lucide-react';
 import html2canvas from 'html2canvas';
 
 type CountryType = 'France' | 'Brazil' | 'Other';
@@ -15,16 +15,50 @@ const STORAGE_KEY = 'residencyCalendarDates';
 const ResidencyCalendar = () => {
   const [selectedDates, setSelectedDates] = useState<SelectedDatesType>({});
   const [isDownloading, setIsDownloading] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
 
   const LOCALE = 'en-US';
 
-  useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      setSelectedDates(JSON.parse(saved));
+  // Add new function to fetch latest config
+  const fetchLatestConfig = async () => {
+    try {
+      // Get list of files in saved-configs directory
+      const response = await fetch('https://api.github.com/repos/vinicius-saraiva/residency-planner/contents/saved-configs');
+      if (!response.ok) throw new Error('Failed to fetch configs');
+      
+      const files = await response.json();
+      
+      // Sort files by name (which includes timestamp) to get the latest
+      const sortedFiles = files.sort((a: any, b: any) => b.name.localeCompare(a.name));
+      const latestFile = sortedFiles[0];
+      
+      if (latestFile) {
+        // Fetch the content of the latest file
+        const contentResponse = await fetch(latestFile.download_url);
+        if (!contentResponse.ok) throw new Error('Failed to fetch config content');
+        
+        const configData = await contentResponse.json();
+        
+        // Update state and localStorage
+        setSelectedDates(configData.selectedDates);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(configData.selectedDates));
+      }
+    } catch (error) {
+      console.error('Error fetching latest config:', error);
+      // Fall back to localStorage if available
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        setSelectedDates(JSON.parse(saved));
+      }
     }
+  };
+
+  // Modify the initial useEffect to fetch from GitHub first
+  useEffect(() => {
+    fetchLatestConfig();
   }, []);
 
+  // Keep the localStorage sync effect
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(selectedDates));
   }, [selectedDates]);
@@ -183,6 +217,47 @@ const ResidencyCalendar = () => {
     setIsDownloading(false);
   };
 
+  const handleSaveToCloud = async () => {
+    setIsSaving(true);
+    try {
+      const data = {
+        selectedDates,
+        savedAt: new Date().toISOString(),
+        version: '1.0.0'
+      };
+
+      const content = JSON.stringify(data, null, 2);
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const filename = `calendar-config-${timestamp}.json`;
+
+      const response = await fetch('https://api.github.com/repos/vinicius-saraiva/residency-planner/contents/saved-configs/' + filename, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: `Save calendar configuration - ${timestamp}`,
+          content: btoa(content),
+          branch: 'main'
+        })
+      });
+
+      if (response.ok) {
+        alert('Configuration saved successfully!');
+        // Refresh the data after saving
+        await fetchLatestConfig();
+      } else {
+        throw new Error('Failed to save configuration');
+      }
+    } catch (error) {
+      console.error('Error saving to cloud:', error);
+      alert('Failed to save configuration. Please try again.');
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
   return (
     <Card 
       className="w-full max-w-6xl bg-white"
@@ -195,14 +270,24 @@ const ResidencyCalendar = () => {
             <Calendar className="h-6 w-6" />
             2025 Residency Planner
           </div>
-          <button
-            onClick={handleDownload}
-            disabled={isDownloading}
-            className="flex items-center gap-2 px-3 py-1 text-sm rounded bg-gray-100 hover:bg-gray-200 transition-colors"
-          >
-            <Download className="h-4 w-4" />
-            {isDownloading ? 'Downloading...' : 'Download PNG'}
-          </button>
+          <div className="flex gap-2">
+            <button
+              onClick={handleSaveToCloud}
+              disabled={isSaving}
+              className="flex items-center gap-2 px-3 py-1 text-sm rounded bg-gray-100 hover:bg-gray-200 transition-colors"
+            >
+              <Save className="h-4 w-4" />
+              {isSaving ? 'Saving...' : 'Save to Cloud'}
+            </button>
+            <button
+              onClick={handleDownload}
+              disabled={isDownloading}
+              className="flex items-center gap-2 px-3 py-1 text-sm rounded bg-gray-100 hover:bg-gray-200 transition-colors"
+            >
+              <Download className="h-4 w-4" />
+              {isDownloading ? 'Downloading...' : 'Download PNG'}
+            </button>
+          </div>
         </CardTitle>
         <p className="text-sm text-gray-500">
           Note: You need 183 days in France to be considered a fiscal resident.

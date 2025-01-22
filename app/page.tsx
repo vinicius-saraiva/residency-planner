@@ -1,8 +1,8 @@
-import ResidencyCalendar from '../components/residency-calendar';
+import ResidencyCalendar from '@/components/residency-calendar';
 
 export default function Home() {
   return (
-    <main className="p-8">
+    <main className="container mx-auto p-8">
       <ResidencyCalendar />
     </main>
   );

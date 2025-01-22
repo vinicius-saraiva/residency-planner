@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: '/residency-planner/',
 }
 
 module.exports = nextConfig 

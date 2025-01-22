@@ -22,9 +22,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: |
-          npm install
-          npm install @types/node @types/react @types/react-dom typescript
+        run: npm install
 
       - name: Build
         run: npm run build --no-lint
@@ -32,12 +30,9 @@ jobs:
       - name: Prepare build output
         run: |
           touch ./out/.nojekyll
-          cp README.md ./out/
-          rm -rf ./out/residency-planner
-          mkdir -p ./out/residency-planner
-          mv ./out/* ./out/residency-planner/ || true
-          mv ./out/residency-planner/residency-planner/* ./out/ || true
-          rm -rf ./out/residency-planner
+          echo "planner.vinicius.pm" > ./out/CNAME
+          # Don't copy README.md to out directory
+          # Don't move files around unnecessarily
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

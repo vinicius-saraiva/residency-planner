@@ -235,6 +235,7 @@ const ResidencyCalendar = () => {
         headers: {
           'Authorization': `Bearer ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
           'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
         },
         body: JSON.stringify({
           message: `Save calendar configuration - ${timestamp}`,
@@ -243,13 +244,14 @@ const ResidencyCalendar = () => {
         })
       });
 
-      if (response.ok) {
-        alert('Configuration saved successfully!');
-        // Refresh the data after saving
-        await fetchLatestConfig();
-      } else {
-        throw new Error('Failed to save configuration');
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to save configuration');
       }
+
+      alert('Configuration saved successfully!');
+      // Refresh the data after saving
+      await fetchLatestConfig();
     } catch (error) {
       console.error('Error saving to cloud:', error);
       alert('Failed to save configuration. Please try again.');

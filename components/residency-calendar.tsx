@@ -14,7 +14,6 @@ const STORAGE_KEY = 'residencyCalendarDates';
 
 const ResidencyCalendar = () => {
   const [selectedDates, setSelectedDates] = useState<SelectedDatesType>({});
-  const [hoveredDate, setHoveredDate] = useState<Date | null>(null);
   const [isDownloading, setIsDownloading] = useState(false);
 
   const LOCALE = 'en-US';
@@ -57,10 +56,6 @@ const ResidencyCalendar = () => {
     });
     
     return counts;
-  };
-
-  const getMonthName = (date: Date): string => {
-    return date.toLocaleString(LOCALE, { month: 'long' });
   };
 
   const toggleDate = (date: Date): void => {
@@ -245,8 +240,6 @@ const ResidencyCalendar = () => {
                     <button
                       key={date.getTime().toString()}
                       onClick={() => toggleDate(date)}
-                      onMouseEnter={() => setHoveredDate(date)}
-                      onMouseLeave={() => setHoveredDate(null)}
                       className={`p-1 rounded text-sm hover:opacity-80 transition-colors ${colorClass} ${textColorClass}`}
                     >
                       {date.getDate()}

@@ -149,7 +149,28 @@ const ResidencyCalendar = () => {
       const element = document.getElementById('residency-calendar');
       if (!element) return;
       
-      const canvas = await html2canvas(element);
+      const canvas = await html2canvas(element, {
+        backgroundColor: 'white',
+        scale: 2,
+        useCORS: true,
+        logging: false,
+        width: element.scrollWidth,
+        height: element.scrollHeight,
+        onclone: (clonedDoc) => {
+          const style = clonedDoc.createElement('style');
+          style.innerHTML = `
+            * {
+              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+            }
+            .container {
+              padding: 0 !important;
+              margin: 0 !important;
+            }
+          `;
+          clonedDoc.head.appendChild(style);
+        }
+      });
+      
       const dataUrl = canvas.toDataURL('image/png');
       
       const link = document.createElement('a');
@@ -163,7 +184,11 @@ const ResidencyCalendar = () => {
   };
 
   return (
-    <Card className="w-full max-w-6xl" id="residency-calendar">
+    <Card 
+      className="w-full max-w-6xl bg-white"
+      id="residency-calendar"
+      style={{ margin: 0 }}
+    >
       <CardHeader className="flex flex-col space-y-2">
         <CardTitle className="flex items-center justify-between">
           <div className="flex items-center gap-2">

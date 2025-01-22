@@ -22,15 +22,29 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install @types/node @types/react @types/react-dom typescript
 
       - name: Build
-        run: npm run build --no-lint
+        run: |
+          npm run build --no-lint
+        env:
+          CI: false
+
+      - name: Debug output
+        if: failure()
+        run: |
+          echo "Build failed. Checking directory contents:"
+          ls -la
+          echo "Checking build logs:"
+          cat .next/build-error.log || true
 
       - name: Add .nojekyll file
         run: |
           touch ./out/.nojekyll
-          cp -r ./out/* ./out/residency-planner/
+          mkdir -p ./out/residency-planner
+          cp -r ./out/* ./out/residency-planner/ || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

@@ -6,6 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   assetPrefix: '/residency-planner/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 

@@ -2,8 +2,11 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -25,7 +28,9 @@ jobs:
         run: npm run build --no-lint
 
       - name: Add .nojekyll file
-        run: touch ./out/.nojekyll
+        run: |
+          touch ./out/.nojekyll
+          cp -r ./out/* ./out/residency-planner/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

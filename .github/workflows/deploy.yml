@@ -22,15 +22,22 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install @types/node @types/react @types/react-dom typescript
 
       - name: Build
         run: npm run build --no-lint
 
-      - name: Add .nojekyll file
+      - name: Prepare build output
         run: |
           touch ./out/.nojekyll
-          echo "planner.vinicius.pm" > ./out/CNAME
+          cp README.md ./out/
+          rm -rf ./out/residency-planner
+          mkdir -p ./out/residency-planner
+          mv ./out/* ./out/residency-planner/ || true
+          mv ./out/residency-planner/residency-planner/* ./out/ || true
+          rm -rf ./out/residency-planner
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

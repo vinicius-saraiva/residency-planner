@@ -9,7 +9,9 @@
     "lint": "next lint",
     "analyze-competitor": "ts-node scripts/competitor-analyzer.ts",
     "analyze-ai": "ts-node scripts/ai-analyzer.ts",
-    "analyze-batch": "./scripts/batch-analyze.sh"
+    "analyze-research": "ts-node scripts/research-analyzer.ts",
+    "analyze-batch": "./scripts/batch-analyze.sh",
+    "analyze-batch-research": "./scripts/batch-research.sh"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

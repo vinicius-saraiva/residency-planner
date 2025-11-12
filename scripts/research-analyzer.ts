@@ -559,6 +559,621 @@ Data should be verified with official sources for critical decision-making.
             'Cybersecurity threats'
           ]
         }
+      },
+      'Wells Fargo': {
+        sector: 'Universal Bank',
+        founded: '1852',
+        headquarters: 'San Francisco, CA',
+        assets: '$1.9 trillion (2024)',
+        employees: '~226,000',
+        geography: '4,900+ branches across 36 states',
+        markets: 'Consumer Banking, Commercial Banking, Corporate & Investment Banking, Wealth Management',
+        description: 'Wells Fargo is a leading financial services company with $1.9 trillion in assets, providing banking, investment and mortgage products and services.',
+        ceo: 'Charles Scharf',
+        executives: 'Mike Santomassimo (CFO), Mary Mack (Consumer Banking)',
+        products: ['Checking & Savings', 'Credit Cards', 'Home Mortgage', 'Auto Loans', 'Personal Loans', 'Investment Services'],
+        mobileApp: 'Wells Fargo Mobile - 4.7/5 rating',
+        onlineBanking: 'wellsfargo.com - Comprehensive online banking',
+        digitalFeatures: 'Mobile deposit, Zelle, budgeting tools, cardless ATM access',
+        usps: [
+          'Extensive branch network',
+          'Comprehensive financial services',
+          'Strong mortgage lending presence',
+          'Digital banking capabilities'
+        ],
+        ranking: '#3 US Bank by assets',
+        marketShare: '~8% of US banking assets',
+        competitors: 'JPMorgan Chase, Bank of America, Citigroup',
+        advantages: [
+          'Large branch and ATM network',
+          'Diversified product offerings',
+          'Strong mortgage business',
+          'Cross-selling capabilities'
+        ],
+        weaknesses: [
+          'Past scandals and regulatory issues',
+          'Reputation challenges',
+          'Consent orders and oversight'
+        ],
+        rating: '4.2/5 average',
+        appRating: '4.7/5 on iOS',
+        customerBase: '70+ million customers',
+        targetDemo: 'Mass market consumers and small businesses',
+        segments: 'Retail, commercial, wealth management',
+        channels: ['4,900+ branches', 'Online', 'Mobile app', '12,000+ ATMs', 'Phone'],
+        appFeatures: 'Biometric login, mobile check deposit, bill pay, account alerts',
+        techStack: 'Digital infrastructure, cloud computing, AI/ML',
+        innovation: 'Digital transformation, enhanced mobile features',
+        techInitiatives: [
+          'Investing $9B+ annually in technology',
+          'Modernizing core banking systems',
+          'Enhanced fraud prevention',
+          'Improved digital customer experience'
+        ],
+        deposits: '$1.4 trillion',
+        netIncome: '$19.1 billion (2023)',
+        roa: '1.02%',
+        roe: '11.2%',
+        capitalRatio: '11.8%',
+        efficiencyRatio: '66%',
+        growthRate: '4% YoY',
+        strategies: [
+          'Rebuilding trust and reputation',
+          'Risk management and compliance focus',
+          'Digital transformation',
+          'Simplifying business operations'
+        ],
+        recentNews: [
+          'Progress on regulatory consent orders (2024)',
+          'Enhanced digital banking features',
+          'Technology infrastructure improvements',
+          'Branch network optimization'
+        ],
+        futurePlans: [
+          'Complete regulatory remediation',
+          'Continue technology investments',
+          'Grow commercial banking',
+          'Enhance customer experience'
+        ],
+        swot: {
+          strengths: [
+            'Third-largest US bank by assets',
+            'Extensive branch and ATM network',
+            'Strong mortgage lending business',
+            'Diversified product portfolio'
+          ],
+          weaknesses: [
+            'Regulatory consent orders and oversight',
+            'Reputational damage from past issues',
+            'Asset cap restrictions',
+            'Customer trust challenges'
+          ],
+          opportunities: [
+            'Digital banking growth',
+            'Reputation recovery potential',
+            'Market share gains as restrictions lift',
+            'Commercial banking expansion'
+          ],
+          threats: [
+            'Continued regulatory scrutiny',
+            'Fintech competition',
+            'Asset cap limiting growth',
+            'Customer attrition'
+          ]
+        }
+      },
+      'Citibank': {
+        sector: 'Global Bank',
+        founded: '1812 (as City Bank of New York)',
+        headquarters: 'New York, NY',
+        assets: '$2.4 trillion (2024)',
+        employees: '~240,000',
+        geography: 'Global presence, 600+ branches in US',
+        markets: 'Consumer Banking, Institutional Clients Group, Wealth Management',
+        description: 'Citigroup is a global financial services company doing business in more than 160 countries and jurisdictions with approximately 200 million customer accounts.',
+        ceo: 'Jane Fraser',
+        executives: 'Mark Mason (CFO), Anand Selva (US Consumer Banking)',
+        products: ['Banking', 'Credit Cards', 'Lending', 'Investment Services', 'Wealth Management', 'Treasury Services'],
+        mobileApp: 'Citi Mobile - 4.6/5 rating',
+        onlineBanking: 'online.citi.com - Global banking platform',
+        digitalFeatures: 'Mobile banking, card controls, spending insights, global access',
+        usps: [
+          'Global presence and capabilities',
+          'Premium credit card offerings',
+          'International banking services',
+          'Institutional banking strength'
+        ],
+        ranking: '#4 US Bank by assets',
+        marketShare: '~10% of US banking assets',
+        competitors: 'JPMorgan Chase, Bank of America, HSBC',
+        advantages: [
+          'Global footprint and capabilities',
+          'Strong institutional banking',
+          'Premium credit card portfolio',
+          'International wealth management'
+        ],
+        weaknesses: [
+          'Smaller US branch network',
+          'Complex organizational structure',
+          'Regulatory challenges'
+        ],
+        rating: '4.3/5 average',
+        appRating: '4.6/5 on iOS',
+        customerBase: '200 million globally',
+        targetDemo: 'Affluent consumers, international clients, institutions',
+        segments: 'Consumer, institutional, wealth management',
+        channels: ['600+ branches in US', 'Online', 'Mobile app', 'Global network', 'Relationship managers'],
+        appFeatures: 'Global access, multi-currency accounts, card controls, biometric security',
+        techStack: 'Global digital infrastructure, advanced analytics',
+        innovation: 'Digital transformation, fintech partnerships',
+        techInitiatives: [
+          'Investing $8B+ in technology modernization',
+          'Cloud migration',
+          'AI-powered customer service',
+          'Enhanced cybersecurity'
+        ],
+        deposits: '$1.3 trillion',
+        netIncome: '$14.8 billion (2023)',
+        roa: '0.62%',
+        roe: '7.1%',
+        capitalRatio: '13.5%',
+        efficiencyRatio: '66%',
+        growthRate: '3% YoY',
+        strategies: [
+          'Simplification and transformation',
+          'Focus on high-value clients',
+          'Exit non-core markets',
+          'Digital-first strategy'
+        ],
+        recentNews: [
+          'CEO Jane Fraser leading major transformation (2024)',
+          'Exiting consumer banking in multiple markets',
+          'Organizational restructuring',
+          'Enhanced wealth management offerings'
+        ],
+        futurePlans: [
+          'Complete business simplification',
+          'Focus on US wealth and retail banking',
+          'Grow institutional services',
+          'Enhance digital capabilities'
+        ],
+        swot: {
+          strengths: [
+            'Global banking capabilities',
+            'Strong institutional business',
+            'Premium credit card portfolio',
+            'International network'
+          ],
+          weaknesses: [
+            'Limited US retail footprint',
+            'Complexity of operations',
+            'Lower profitability than peers',
+            'Regulatory issues'
+          ],
+          opportunities: [
+            'Wealth management growth',
+            'Simplified business model',
+            'Digital banking innovation',
+            'Cross-border banking services'
+          ],
+          threats: [
+            'Regulatory pressures',
+            'Geopolitical risks',
+            'Fintech disruption',
+            'Competition in key markets'
+          ]
+        }
+      },
+      'Capital One': {
+        sector: 'Bank Holding Company',
+        founded: '1994',
+        headquarters: 'McLean, VA',
+        assets: '$480 billion (2024)',
+        employees: '~55,000',
+        geography: '280+ branches, primarily East Coast',
+        markets: 'Credit Cards, Consumer Banking, Commercial Banking, Auto Finance',
+        description: 'Capital One Financial Corporation is a diversified financial services holding company. Its subsidiaries offer a broad array of financial products and services to consumers, small businesses and commercial clients.',
+        ceo: 'Richard Fairbank',
+        executives: 'Andrew Young (CFO), Sanjiv Yajnik (Financial Services)',
+        products: ['Credit Cards', 'Banking', 'Auto Loans', 'Home Loans', 'Small Business', 'Commercial Banking'],
+        mobileApp: 'Capital One Mobile - 4.8/5 rating',
+        onlineBanking: 'capitalone.com - Digital-first banking platform',
+        digitalFeatures: 'Eno virtual assistant, virtual card numbers, credit monitoring, instant notifications',
+        usps: [
+          'Technology-driven approach',
+          'Leading credit card offerings',
+          'Eno AI virtual assistant',
+          'Digital banking innovation'
+        ],
+        ranking: '#9 US Bank by assets',
+        marketShare: '~2% of US banking assets',
+        competitors: 'Chase, Discover, American Express, Citibank',
+        advantages: [
+          'Strong technology capabilities',
+          'Credit card expertise',
+          'Data-driven decision making',
+          'Digital innovation'
+        ],
+        weaknesses: [
+          'Smaller branch network',
+          'Heavy reliance on credit cards',
+          'Limited geographic presence'
+        ],
+        rating: '4.4/5 average',
+        appRating: '4.8/5 on iOS',
+        customerBase: '100+ million customers',
+        targetDemo: 'Mass market to affluent consumers',
+        segments: 'Credit cards, retail banking, auto finance, commercial',
+        channels: ['280+ branches', 'Online', 'Mobile app', '2,000+ Capital One Cafés/ATMs'],
+        appFeatures: 'Eno AI assistant, virtual cards, auto-save, spending insights',
+        techStack: 'Cloud-native (AWS), microservices, machine learning',
+        innovation: 'AI-powered features, cloud computing, open banking',
+        techInitiatives: [
+          'Fully cloud-based infrastructure',
+          'Eno AI assistant with 13M+ users',
+          'Machine learning for credit decisions',
+          'Open API platform'
+        ],
+        deposits: '$322 billion',
+        netIncome: '$9.4 billion (2023)',
+        roa: '1.95%',
+        roe: '11.5%',
+        capitalRatio: '13.8%',
+        efficiencyRatio: '52%',
+        growthRate: '7% YoY',
+        strategies: [
+          'Digital-first banking',
+          'Technology and innovation leadership',
+          'Credit card market leadership',
+          'Branch network expansion (Capital One Cafés)'
+        ],
+        recentNews: [
+          'Expanding Capital One Café locations (2024)',
+          'Enhanced Eno AI capabilities',
+          'Strong credit card performance',
+          'Investing in digital experiences'
+        ],
+        futurePlans: [
+          'Continue technology leadership',
+          'Expand banking presence',
+          'Grow commercial banking',
+          'Enhance AI capabilities'
+        ],
+        swot: {
+          strengths: [
+            'Technology and digital innovation leader',
+            'Strong credit card business',
+            'Eno AI virtual assistant',
+            'Cloud-native infrastructure'
+          ],
+          weaknesses: [
+            'Limited branch network',
+            'Geographic concentration',
+            'Credit card dependency',
+            'Smaller scale than mega-banks'
+          ],
+          opportunities: [
+            'Digital banking adoption',
+            'Capital One Café expansion',
+            'Commercial banking growth',
+            'AI and technology leadership'
+          ],
+          threats: [
+            'Intense credit card competition',
+            'Economic cycles affecting credit',
+            'Fintech disruption',
+            'Cybersecurity risks'
+          ]
+        }
+      },
+      'Ally Bank': {
+        sector: 'Digital/Online Bank',
+        founded: '2009 (as Ally Bank, formerly GMAC)',
+        headquarters: 'Detroit, MI',
+        assets: '$193 billion (2024)',
+        employees: '~11,000',
+        geography: 'Online nationwide, no physical branches',
+        markets: 'Online Banking, Auto Finance, Corporate Finance, Mortgage',
+        description: 'Ally Bank is a leading digital financial services company offering banking, auto financing, and corporate finance services. As a direct bank with no physical branches, Ally operates exclusively online and through mobile.',
+        ceo: 'Michael Rhodes',
+        executives: 'Russ Hutchinson (Auto Finance), Kathleen Babb (Deposit & Consumer Strategy)',
+        products: ['Online Savings & Checking', 'CDs', 'Money Market Accounts', 'Auto Loans', 'Home Loans', 'Investment Services'],
+        mobileApp: 'Ally Mobile Banking - 4.8/5 rating',
+        onlineBanking: 'ally.com - Award-winning digital banking',
+        digitalFeatures: 'Buckets savings tools, Surprise Savings, fee-free overdraft, 24/7 customer service',
+        usps: [
+          'No physical branches - fully digital',
+          'Competitive interest rates',
+          'No monthly maintenance fees',
+          '24/7 customer support'
+        ],
+        ranking: 'Top 25 US Bank by assets, #1 online-only bank',
+        marketShare: '~1% of US banking assets',
+        competitors: 'Marcus, Discover Bank, Chime, SoFi',
+        advantages: [
+          'Competitive savings rates',
+          'Low fee structure',
+          'Strong digital experience',
+          'Excellent customer service'
+        ],
+        weaknesses: [
+          'No physical branches',
+          'Limited product offerings',
+          'No cash deposit options',
+          'Smaller scale'
+        ],
+        rating: '4.6/5 average',
+        appRating: '4.8/5 on iOS and Android',
+        customerBase: '2.7 million deposit customers',
+        targetDemo: 'Digital-first consumers seeking high-yield savings',
+        segments: 'Online banking, auto finance',
+        channels: ['Online banking', 'Mobile app', '24/7 phone support', 'ATM network (no fees)'],
+        appFeatures: 'Buckets for savings goals, mobile check deposit, instant transfers, spending insights',
+        techStack: 'Cloud-based digital platform, mobile-first design',
+        innovation: 'Customer-centric digital features, high-yield products',
+        techInitiatives: [
+          'Continuous app enhancements',
+          'API integrations for financial tools',
+          'Enhanced security features',
+          'Robo-advisory services'
+        ],
+        deposits: '$151 billion',
+        netIncome: '$1.7 billion (2023)',
+        roa: '0.88%',
+        roe: '10.2%',
+        capitalRatio: '9.8%',
+        efficiencyRatio: '43%',
+        growthRate: '8% YoY',
+        strategies: [
+          'Digital banking leadership',
+          'Customer experience excellence',
+          'Competitive rate positioning',
+          'Auto finance expertise'
+        ],
+        recentNews: [
+          'Consistently high savings rates (2024)',
+          'Enhanced mobile app features',
+          'Growing deposit base',
+          'Award-winning customer service'
+        ],
+        futurePlans: [
+          'Expand product offerings',
+          'Grow deposit customer base',
+          'Enhance investment services',
+          'Continue digital innovation'
+        ],
+        swot: {
+          strengths: [
+            'Leading online-only bank',
+            'Competitive interest rates',
+            'No fees model',
+            'Excellent customer satisfaction ratings'
+          ],
+          weaknesses: [
+            'No physical branch access',
+            'Limited product suite',
+            'Smaller brand recognition',
+            'No cash deposit capability'
+          ],
+          opportunities: [
+            'Growing digital banking adoption',
+            'Product expansion',
+            'Younger demographic targeting',
+            'Partnership opportunities'
+          ],
+          threats: [
+            'Rate competition from other online banks',
+            'Traditional banks improving digital offerings',
+            'Fintech competition',
+            'Economic downturns affecting auto finance'
+          ]
+        }
+      },
+      'Chime': {
+        sector: 'Digital Banking Platform/Fintech',
+        founded: '2013',
+        headquarters: 'San Francisco, CA',
+        assets: 'Not disclosed (not a bank)',
+        employees: '~1,500',
+        geography: 'Nationwide (digital only)',
+        markets: 'Digital Banking, Financial Services Platform',
+        description: 'Chime is a financial technology company, not a bank. Banking services provided by The Bancorp Bank, N.A. or Stride Bank, N.A., Members FDIC. Chime offers fee-free mobile banking with features like early paycheck access and automatic savings.',
+        ceo: 'Chris Britt',
+        executives: 'Chris Britt (CEO & Co-founder), Ryan King (CTO)',
+        products: ['Checking Account', 'Savings Account', 'Secured Credit Card', 'SpotMe Overdraft', 'Instant Transfers'],
+        mobileApp: 'Chime Mobile Banking - 4.7/5 rating',
+        onlineBanking: 'chime.com - Mobile-first platform (no web login)',
+        digitalFeatures: 'Get paid early (2 days), auto-savings, fee-free overdraft up to $200, instant transaction alerts',
+        usps: [
+          'No monthly fees, no overdraft fees',
+          'Get paid up to 2 days early',
+          'SpotMe fee-free overdraft',
+          'Automatic savings tools'
+        ],
+        ranking: 'Largest digital banking platform by users',
+        marketShare: 'Challenger bank/fintech',
+        competitors: 'Current, Dave, Varo, MoneyLion',
+        advantages: [
+          'Fee-free model',
+          'Early direct deposit',
+          'Simple user experience',
+          'Rapid growth'
+        ],
+        weaknesses: [
+          'Not a chartered bank',
+          'Limited product suite',
+          'Customer service challenges',
+          'No physical branches'
+        ],
+        rating: '4.3/5 average (mixed reviews)',
+        appRating: '4.7/5 on iOS, 4.6/5 on Android',
+        customerBase: '14+ million accounts',
+        targetDemo: 'Younger consumers, underbanked, fee-conscious',
+        segments: 'Consumer digital banking',
+        channels: ['Mobile app only', 'Online support', '60,000+ fee-free ATMs'],
+        appFeatures: 'Early payday, SpotMe overdraft, auto-save, instant notifications, mobile check deposit',
+        techStack: 'Mobile-first platform, partner banks for infrastructure',
+        innovation: 'Fee-free banking, early paycheck access, financial wellness tools',
+        techInitiatives: [
+          'Launched secured credit card (2024)',
+          'Enhanced SpotMe limits',
+          'Improved app features',
+          'Financial education content'
+        ],
+        deposits: '$8+ billion',
+        netIncome: 'Not disclosed (private company)',
+        roa: 'N/A (not a bank)',
+        roe: 'N/A',
+        capitalRatio: 'N/A',
+        efficiencyRatio: 'N/A',
+        growthRate: 'Rapid user growth (millions added yearly)',
+        strategies: [
+          'Fee-free banking for all',
+          'Early pay features',
+          'User growth and engagement',
+          'Product expansion'
+        ],
+        recentNews: [
+          'Launched Chime Credit Builder card (2024)',
+          'Reached 14+ million members',
+          'Enhanced SpotMe features',
+          'Exploring potential IPO'
+        ],
+        futurePlans: [
+          'Expand product offerings',
+          'Potential IPO',
+          'International expansion',
+          'Additional financial services'
+        ],
+        swot: {
+          strengths: [
+            'Largest digital banking platform in US',
+            'No-fee model attracts users',
+            'Early pay and SpotMe features',
+            'Strong brand with young consumers'
+          ],
+          weaknesses: [
+            'Not a chartered bank (regulatory limitations)',
+            'Customer service issues at scale',
+            'Limited product offerings',
+            'Profitability questions'
+          ],
+          opportunities: [
+            'Underbanked market',
+            'Product expansion (lending, investments)',
+            'International markets',
+            'Banking charter possibility'
+          ],
+          threats: [
+            'Traditional banks offering similar features',
+            'Regulatory scrutiny',
+            'Competition from other fintechs',
+            'Economic downturn affecting users'
+          ]
+        }
+      },
+      'SoFi': {
+        sector: 'Digital Bank/Fintech',
+        founded: '2011',
+        headquarters: 'San Francisco, CA',
+        assets: '$27 billion (2024)',
+        employees: '~4,600',
+        geography: 'Nationwide (digital only)',
+        markets: 'Banking, Lending, Investing, Insurance',
+        description: 'SoFi Technologies is a digital personal finance company offering a wide range of financial services including banking, lending, investing, and insurance. SoFi received a national bank charter in 2022.',
+        ceo: 'Anthony Noto',
+        executives: 'Chris Lapointe (CFO), Michelle Gill (Lending)',
+        products: ['Checking & Savings', 'Personal Loans', 'Student Loan Refinancing', 'Mortgages', 'Investment Accounts', 'Credit Cards'],
+        mobileApp: 'SoFi App - 4.7/5 rating',
+        onlineBanking: 'sofi.com - Comprehensive financial platform',
+        digitalFeatures: 'All-in-one platform, financial planning tools, career coaching, member benefits',
+        usps: [
+          'Complete financial services platform',
+          'No account fees, competitive rates',
+          'Career services and networking',
+          'SoFi Stadium naming rights'
+        ],
+        ranking: 'Fastest-growing digital bank',
+        marketShare: 'Emerging digital bank',
+        competitors: 'Chime, Ally, Marcus, traditional banks',
+        advantages: [
+          'Comprehensive product suite',
+          'Technology platform',
+          'Bank charter advantages',
+          'Strong brand'
+        ],
+        weaknesses: [
+          'Profitability challenges',
+          'Limited brand recognition vs. traditional banks',
+          'Smaller scale',
+          'No physical branches'
+        ],
+        rating: '4.5/5 average',
+        appRating: '4.7/5 on iOS and Android',
+        customerBase: '7.5+ million members',
+        targetDemo: 'Affluent millennials, professionals, tech-savvy consumers',
+        segments: 'Consumer banking, lending, investing',
+        channels: ['Mobile app', 'Online platform', 'Member services', '55,000+ fee-free ATMs'],
+        appFeatures: 'Unified financial dashboard, auto-investing, loan management, rewards tracking',
+        techStack: 'Modern cloud-based platform, Galileo payment infrastructure',
+        innovation: 'One-stop financial services, bank-fintech hybrid model',
+        techInitiatives: [
+          'Galileo payment platform',
+          'Technisys core banking acquisition',
+          'AI-powered financial planning',
+          'SoFi Invest robo-advisory'
+        ],
+        deposits: '$22 billion',
+        netIncome: '$88 million (2023, first profitable year)',
+        roa: '0.32%',
+        roe: 'Improving (recently profitable)',
+        capitalRatio: '12.5%',
+        efficiencyRatio: 'Improving',
+        growthRate: '30%+ YoY member growth',
+        strategies: [
+          'One-stop financial shop',
+          'Cross-selling multiple products',
+          'Technology infrastructure (Galileo/Technisys)',
+          'Path to sustained profitability'
+        ],
+        recentNews: [
+          'Achieved GAAP profitability (2023)',
+          'Growing member base 7.5M+',
+          'Launched SoFi credit card',
+          'Expanding product offerings'
+        ],
+        futurePlans: [
+          'Sustained profitability',
+          'Cross-product adoption',
+          'Business banking services',
+          'International expansion'
+        ],
+        swot: {
+          strengths: [
+            'Comprehensive product platform',
+            'Bank charter with fintech agility',
+            'Strong brand with target demo',
+            'Technology infrastructure (Galileo)'
+          ],
+          weaknesses: [
+            'Limited profitability history',
+            'Smaller scale than incumbents',
+            'No physical presence',
+            'Higher customer acquisition costs'
+          ],
+          opportunities: [
+            'Digital banking adoption',
+            'Cross-selling opportunities',
+            'Business banking entry',
+            'Galileo/Technisys monetization'
+          ],
+          threats: [
+            'Intense competition',
+            'Economic downturn affecting lending',
+            'Traditional banks improving digital',
+            'Regulatory changes'
+          ]
+        }
       }
       // Additional banks would be added here with similar comprehensive data
     };

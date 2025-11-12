@@ -172,4 +172,4 @@ Marcus by Goldman Sachs is a financial institution providing banking services to
 **Note:** This analysis is based on publicly available information as of 2025-11-12.
 Data should be verified with official sources for critical decision-making.
 
-**Last Updated:** 2025-11-12T15:31:42.108Z
+**Last Updated:** 2025-11-12T15:52:11.683Z

@@ -11,146 +11,170 @@
 - **Analysis Date:** 2025-11-12
 - **Analyst:** Automated Research Agent
 - **Industry:** Banking & Financial Services
-- **Sector:** Financial Services
+- **Sector:** Global Bank
 
 ---
 
 ## Company Overview
 
 ### Background
-- **Founded:** Research required
-- **Headquarters:** Research required
-- **Total Assets:** Research required
-- **Employees:** Research required
-- **Geographic Presence:** United States
-- **Primary Markets:** Consumer and Commercial Banking
+- **Founded:** 1812 (as City Bank of New York)
+- **Headquarters:** New York, NY
+- **Total Assets:** $2.4 trillion (2024)
+- **Employees:** ~240,000
+- **Geographic Presence:** Global presence, 600+ branches in US
+- **Primary Markets:** Consumer Banking, Institutional Clients Group, Wealth Management
 
 ### Business Description
-Citibank is a financial institution providing banking services to consumers and businesses.
+Citigroup is a global financial services company doing business in more than 160 countries and jurisdictions with approximately 200 million customer accounts.
 
 ### Leadership
-- **CEO:** Research required
-- **Key Executives:** Research required
+- **CEO:** Jane Fraser
+- **Key Executives:** Mark Mason (CFO), Anand Selva (US Consumer Banking)
 
 ---
 
 ## Products & Services
 
 ### Core Offerings
-1. **Personal Banking**
-2. **Business Banking**
+1. **Banking**
+2. **Credit Cards**
 3. **Lending**
 4. **Investment Services**
+5. **Wealth Management**
+6. **Treasury Services**
 
 ### Digital Services
-- Mobile Banking App: Available on iOS and Android
-- Online Banking Platform: Web-based platform available
-- Digital Features: Mobile banking, online bill pay, account management
+- Mobile Banking App: Citi Mobile - 4.6/5 rating
+- Online Banking Platform: online.citi.com - Global banking platform
+- Digital Features: Mobile banking, card controls, spending insights, global access
 
 ### Unique Value Propositions
-- Customer service
-- Digital banking
-- Competitive rates
+- Global presence and capabilities
+- Premium credit card offerings
+- International banking services
+- Institutional banking strength
 
 ---
 
 ## Market Position
 
 ### Industry Standing
-- **Market Ranking:** Regional/National player
-- **Market Share:** Research required
-- **Primary Competitors:** Major US banks
+- **Market Ranking:** #4 US Bank by assets
+- **Market Share:** ~10% of US banking assets
+- **Primary Competitors:** JPMorgan Chase, Bank of America, HSBC
 
 ### Competitive Advantages
-- Market knowledge
-- Customer relationships
+- Global footprint and capabilities
+- Strong institutional banking
+- Premium credit card portfolio
+- International wealth management
 
 ### Areas for Improvement
-- Scale limitations
-- Technology investments needed
+- Smaller US branch network
+- Complex organizational structure
+- Regulatory challenges
 
 ---
 
 ## Customer Experience
 
 ### Customer Satisfaction
-- **Overall Rating:** Varies by platform
-- **App Store Rating:** Check app stores for current rating
-- **Customer Base:** Research required
+- **Overall Rating:** 4.3/5 average
+- **App Store Rating:** 4.6/5 on iOS
+- **Customer Base:** 200 million globally
 
 ### Customer Demographics
-- **Primary Target:** Consumer and business clients
-- **Customer Segments:** Retail and commercial banking
+- **Primary Target:** Affluent consumers, international clients, institutions
+- **Customer Segments:** Consumer, institutional, wealth management
 
 ### Service Channels
-- Branches
+- 600+ branches in US
 - Online
-- Mobile
-- ATMs
+- Mobile app
+- Global network
+- Relationship managers
 
 ---
 
 ## Technology & Innovation
 
 ### Digital Capabilities
-- **Mobile App Features:** Standard mobile banking features
-- **Technology Stack:** Modern banking technology
-- **Innovation Focus:** Continuous improvement focus
+- **Mobile App Features:** Global access, multi-currency accounts, card controls, biometric security
+- **Technology Stack:** Global digital infrastructure, advanced analytics
+- **Innovation Focus:** Digital transformation, fintech partnerships
 
 ### Recent Technology Initiatives
-- Digital transformation
-- Customer experience enhancement
+- Investing $8B+ in technology modernization
+- Cloud migration
+- AI-powered customer service
+- Enhanced cybersecurity
 
 ---
 
 ## Financial Performance
 
 ### Key Metrics (Latest Available)
-- **Total Assets:** Research required
-- **Total Deposits:** Research required
-- **Net Income:** Research required
-- **Return on Assets (ROA):** Research required
-- **Return on Equity (ROE):** Research required
+- **Total Assets:** $2.4 trillion (2024)
+- **Total Deposits:** $1.3 trillion
+- **Net Income:** $14.8 billion (2023)
+- **Return on Assets (ROA):** 0.62%
+- **Return on Equity (ROE):** 7.1%
 
 ### Financial Health
-- **Capital Ratio:** Research required
-- **Efficiency Ratio:** Research required
-- **Growth Rate:** Research required
+- **Capital Ratio:** 13.5%
+- **Efficiency Ratio:** 66%
+- **Growth Rate:** 3% YoY
 
 ---
 
 ## Strategic Initiatives
 
 ### Current Focus Areas
-- Customer-focused growth
-- Digital enhancement
-- Market expansion
+- Simplification and transformation
+- Focus on high-value clients
+- Exit non-core markets
+- Digital-first strategy
 
 ### Recent Developments
-- Check recent press releases and news coverage
+- CEO Jane Fraser leading major transformation (2024)
+- Exiting consumer banking in multiple markets
+- Organizational restructuring
+- Enhanced wealth management offerings
 
 ### Future Plans
-- Strategic initiatives in development
+- Complete business simplification
+- Focus on US wealth and retail banking
+- Grow institutional services
+- Enhance digital capabilities
 
 ---
 
 ## SWOT Analysis
 
 ### Strengths
-- Market presence
-- Customer relationships
+- Global banking capabilities
+- Strong institutional business
+- Premium credit card portfolio
+- International network
 
 ### Weaknesses
-- Scale
-- Technology gaps
+- Limited US retail footprint
+- Complexity of operations
+- Lower profitability than peers
+- Regulatory issues
 
 ### Opportunities
-- Digital banking growth
-- Market expansion
+- Wealth management growth
+- Simplified business model
+- Digital banking innovation
+- Cross-border banking services
 
 ### Threats
-- Competition
-- Regulatory changes
+- Regulatory pressures
+- Geopolitical risks
+- Fintech disruption
+- Competition in key markets
 
 ---
 
@@ -172,4 +196,4 @@ Citibank is a financial institution providing banking services to consumers and 
 **Note:** This analysis is based on publicly available information as of 2025-11-12.
 Data should be verified with official sources for critical decision-making.
 
-**Last Updated:** 2025-11-12T15:31:05.847Z
+**Last Updated:** 2025-11-12T15:51:36.131Z

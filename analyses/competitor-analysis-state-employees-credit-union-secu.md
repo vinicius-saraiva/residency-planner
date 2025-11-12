@@ -172,4 +172,4 @@ State Employees' Credit Union (SECU) is a financial institution providing bankin
 **Note:** This analysis is based on publicly available information as of 2025-11-12.
 Data should be verified with official sources for critical decision-making.
 
-**Last Updated:** 2025-11-12T15:31:52.118Z
+**Last Updated:** 2025-11-12T15:52:21.640Z
